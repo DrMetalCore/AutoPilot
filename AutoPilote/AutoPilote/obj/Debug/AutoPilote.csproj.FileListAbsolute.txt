@@ -1,0 +1,11 @@
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\bin\Debug\AutoPilote.exe.config
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\bin\Debug\AutoPilote.exe
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\bin\Debug\AutoPilote.pdb
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\bin\Debug\Newtonsoft.Json.dll
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\bin\Debug\Newtonsoft.Json.xml
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\obj\Debug\AutoPilote.csprojAssemblyReference.cache
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\obj\Debug\AutoPilote.csproj.CoreCompileInputs.cache
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\obj\Debug\AutoPilote.csproj.CopyComplete
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\obj\Debug\AutoPilote.exe
+C:\Users\luka6\source\repos\AutoPilote\AutoPilote\obj\Debug\AutoPilote.pdb
