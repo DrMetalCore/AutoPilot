@@ -3,38 +3,22 @@ using System;
 
 namespace BusDrone
 {
-    public class Packet : IComparable<Packet>
+    public class Packet 
     {
-        public Sensor source { get; private set; }
-        public int ID { get; private set; }
-        public static int PID { get; private set; } = 0;
-        public int TTL { get; private set; }
-        public int size { get; private set; }
-        public String content { get; private set; }
-        public int CRC { get; private set; }
+        public string type;
+        public string request;
+        public string args;
+        public int peripherial;
+        public string[] data { get; set; }
 
-        public Packet(Sensor src, int ID, int TTL, String content, int crc)
+        public Packet(string type, string request, string args,int peripherial, string[] data)
         {
-            this.source = src;
-            this.ID = ID;
-            PID++;
-            this.TTL = TTL;
-            this.size = content.Length;
-            this.content = content;
-            this.CRC = crc;
+            this.type = type;
+            this.request = request;
+            this.args = args;
+            this.peripherial = peripherial;
+            this.data = data;
         }
-
-        public int DecreaseTTL(int tick)
-        {
-            return (this.TTL -= tick);
-        }
-
-        public int CompareTo(Packet other)
-        {
-            return (other == null) ? 1 : this.TTL.CompareTo(other.TTL);
-        }
-
-        //ComputeCRC()
     }
 }
 

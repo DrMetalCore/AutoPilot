@@ -22,12 +22,12 @@ namespace ConsoleApp1
             this.unit = unit;
         }
 
-        
+        /*
         public Component(Packet packet)
         {
-            dynamic tmp = JObject.Parse(packet.content);
+            dynamic tmp = JObject.Parse(packet.data);
 
-            if(packet.ID == 1)
+            if(packet.id == 1)
             {
                 this.type = "motor";
                 this.port = tmp.port;
@@ -35,12 +35,12 @@ namespace ConsoleApp1
             else
             {
                 this.type = "sensor";
-                this.port = packet.ID;
+                this.port = packet.id;
             }
             this.value = tmp.value;
             this.unit = tmp.unit;
         }
-        
+        */
         public override string ToString()
         {
             return "Type = " + this.type + "\nPort = " + this.port + "\nValue = " + this.value + "\nUnit = " + this.unit + "\n";
